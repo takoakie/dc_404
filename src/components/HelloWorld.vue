@@ -1,9 +1,15 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-  <p>
-   I have bad news for you 
-  </p>
+  <p1>
+    the page you are looking for might
+  </p1>
+  <br1>
+     be removed or is temporarily 
+     </br1>
+     <br2>
+       unavailable
+     </br2>
   </div>
 </template>
 

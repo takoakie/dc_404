@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/Scarecrow.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="./assets/favicon.png" src="./assets/Scarecrow.png">
+    <HelloWorld msg="I have bad news for you"/>
   </div>
+
 </template>
 
 <script>
@@ -18,10 +19,10 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Space Mono;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: right;
   color: #2c3e50;
   margin-top: 60px;
 }
