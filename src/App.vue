@@ -1,10 +1,14 @@
 <template>
-  <div id="app">
-    <img alt="./assets/favicon.png" src="./assets/Scarecrow.png">
+<div>
+  <header class = "header"> {{ header }} </header>
+  <div id="img">
+    <img class="img" alt="Scarecrow" src="./assets/Scarecrow.png"/>
+    </div>
     <HelloWorld msg="I have bad news for you"/>
-  
-  <button class="button"> BACK TO HOMEPAGE </button>
-  </div>
+     <button class="button"> BACK TO HOMEPAGE </button>
+
+     <footer class ="footer">{{ fotter }}</footer>
+     </div>
 </template>
 
 <script>
