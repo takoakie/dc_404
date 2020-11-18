@@ -1,16 +1,14 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-  <p1>
+<div>
+  <p class="badnews">{{ msg }}
+  </p>
+  <div>
+    <p class= "message">
     the page you are looking for might
-  </p1>
-  <br1>
-     be removed or is temporarily 
-     </br1>
-     <br2>
-       unavailable
-     </br2>
-  </div>
+     be removed or is temporarily unavailable
+    </p>
+    </div>
+    </div>
 </template>
 
 <script>
