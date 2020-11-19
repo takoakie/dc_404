@@ -29,12 +29,45 @@ export default{
 </script>
 
 <style>
-#app {
-  font-family: Space Mono;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: right;
-  color: #2c3e50;
-  margin-top: 60px;
+@media screen and (min-width: 781px){
+  .header{
+    font-family: Inconsolata;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-align: left;
+
+color: #333333;
+  }
+  .button{
+    position: absolute;
+width: 216px;
+height: 68px;
+left: 740px;
+top: 663px;
+background: #333333;
+
+  }
+  .img{
+    position: absolute;
+left: 5.35%;
+right: 57.21%;
+top: 24.54%;
+bottom: 37.11%;
+
+  }
+  .footer{
+    font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+
 }
 </style>

@@ -1,14 +1,14 @@
 <template>
 <div>
   <p class="badnews">{{ msg }}
-  </p>
-  <div>
-    <p class= "message">
-    the page you are looking for might
-     be removed or is temporarily unavailable
-    </p>
+      </p>
+      <div>
+      <p class= "message">
+      the page you are looking for might
+      be removed or is temporarily unavailable
+     </p>
     </div>
-    </div>
+  </div>
 </template>
 
 <script>
@@ -21,19 +21,38 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
+<style>
+@media screen and(min-width: 781px){
+.badnews {
+  position: absolute;
+  width: 586px;
+  height: 190px;
+  left: 735px;
+  top:265px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.message {
+  position: absolute;
+width: 381px;
+height: 108px;
+left: 736px;
+top: 491px;
+
+font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.035em;
+
+color: #4F4F4F;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+
 }
 </style>
+}
