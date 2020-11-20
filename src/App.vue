@@ -42,11 +42,16 @@ text-align: left;
 color: #333333;
   }
   .button{
-    position: absolute;
-width: 216px;
-height: 68px;
-left: 740px;
-top: 663px;
+    font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: -0.035em;
+text-transform: uppercase;
+
 background: #333333;
 
   }
@@ -68,6 +73,55 @@ letter-spacing: 0em;
 text-align: left;
 
   }
-
+@media screen and (max-width: 780px){
+  .header{
+position: absolute;
+    white-space: nowrap;
+    width: 133px;
+    height: 25px;
+    left: 24px;
+    top: 20px;
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .button{
+    olor: #ffffff;
+    size: 14px;
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 24px;
+    top: 726px;
+    background: #333333;
+  }
+  .img{
+    width: 286.83px;
+    height: 220.35px;
+    top: 109px;
+    left: 44px;
+    position: absolute;
+  }
+  .footer{
+    position: absolute;
+    width: 226px;
+    height: 17px;
+    left: 75px;
+    top: 890px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+  }
+  }
+  
 }
+
 </style>
