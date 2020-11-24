@@ -1,11 +1,9 @@
 <template>
 <div>
-  <p class="badnews">{{ msg }}
-      </p>
+  <p class="badnews">{{ msg }}</p>
       <div>
       <p class= "message">
-      the page you are looking for might
-      be removed or is temporarily unavailable
+      the page you are looking for might be removed or is temporarily unavailable
      </p>
     </div>
   </div>
@@ -52,6 +50,35 @@ letter-spacing: -0.035em;
 
 color: #4F4F4F;
 }
+@media screen and(max-width:780px){
+  .badnews
+  {position: absolute;
+    width: 350px;
+    height: 142px;
+    left: 24px;
+    top: 407px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: #333333;
+  }
+} .message {
+    position: absolute;
+    width: 328px;
+    height: 81px;
+    left: 23px;
+    top: 578px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+  }
 
 }
 </style>

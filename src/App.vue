@@ -24,53 +24,57 @@ export default{
   name: 'App',
   components: {
     HelloWorld
-  }
-}
+  },
+};
 </script>
 
 <style>
 @media screen and (min-width: 781px){
   .header{
-    font-family: Inconsolata;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 25px;
-letter-spacing: -0.08em;
-text-align: left;
-
-color: #333333;
+    color: #333333;
+    white-space: nowrap;
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 77px;
+    top: 40px;
+    font-family: "Inconsolata";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
   }
   .button{
-    font-family: Space Mono;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
-
-letter-spacing: -0.035em;
-text-transform: uppercase;
-
-background: #333333;
-
+    color: #ffffff;
+    size: 14px;
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 663px;
+    background: #333333;
   }
   .img{
+     width: 539.22px;
+    height: 414.25px;
+    top: 265px;
+    left: 77px;
     position: absolute;
-left: 5.35%;
-right: 57.21%;
-top: 24.54%;
-bottom: 37.11%;
-
   }
   .footer{
-    font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: left;
+   position: absolute;
+    width: 226px;
+    height: 17px;
+    left: 607px;
+    top: 1024px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
 
   }
 @media screen and (max-width: 780px){
@@ -91,7 +95,7 @@ position: absolute;
     color: #333333;
   }
   .button{
-    olor: #ffffff;
+    color: #ffffff;
     size: 14px;
     position: absolute;
     width: 216px;
